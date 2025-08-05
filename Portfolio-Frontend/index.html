@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <nav id="Desktop-Navbar">
+        <div class="logo">PRASHANT SAHU</div>
+        <ul class="Nav-Links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">PRASHANT SAHU</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="Menu-Links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+
+        </div>
+    </nav>
+    <section id="profile">
+
+        <div class="section-text">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="title">Prashant Sahu</h1>
+            <p class="section-text-p2">Full Stack Devloper</p>
+            <div class="btn-container">
+                <button class="btn btn-resume" onclick="window.open('./assets/resume.pdf')">
+                    Resume</button>
+                <button class="btn btn-contact" onclick="location.href='./#Contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                    viewBox="0 0 16 16" onclick="location.href='https://github.com/Prashant-53'" id="logo">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="logo"
+                    class="bi bi-linkedin" viewBox="0 0 16 16"
+                    onclick="location.href='http://www.linkedin.com/in/prashant-sahu-557b67258'">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+
+        <div class="section-text">
+            <div class="about-text-p2">Get to Know More </div>
+            <div class="title">About Me.</div>
+            <div class="details-container">
+                <div class="section_pic">
+                    <img src="./assets/profile_pic.png.JPG" alt="profile picture" class="img1">
+                </div>
+                <!-- <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree</p> -->
+
+                <div class="about-text-p2">
+                    <div class="edu-container">
+                        <h3>Education</h3>
+                        <p>B.Tech Bachelors Degree <br> Mumbai University</p>
+                    </div>
+
+                    <p class="edu-p"> Hi! I'm a recent Computer Science graduate with a strong focus on Full Stack
+                        Web Development. With a CGPA of 7.4, I’ve built several hands-on projects that showcase both
+                        front-end creativity and back-end logic. I’m passionate about building responsive, user-friendly
+                        web applications and continuously
+                        expanding my skills in modern web technologies. I enjoy turning complex problems into clean,
+                        efficient code
+                        and working on real-world applications that solve meaningful problems.</p>
+                </div>
+            </div>
+        </div><!-- <img src="./assets/arrow.png" class="arrow" onclick="location.href='./#experience'"> -->
+    </section>
+    <section id="experience">
+        <p class="exp-h">My</p>
+        <div class="title">Experience.</div>
+        <div class="experience-container">
+            <div class="exp-item">
+                <div class="exp-role">Intern at Future Interns</div>
+                <div class="exp-date">July 2025-August 2025</div>
+            </div>
+        </div>
+        <div class="title"> Skills.</div>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h2>Frontend Technologies</h2>
+                <hr>
+                <h3>HTML</h3>
+                <h3>CSS</h3>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item">
+                <h2>Programing Languages</h2>
+                <hr>
+                <h3>Java</h3>
+                <h3>C</h3>
+                <h3>c++</h3>
+                <!-- <h3></h3> -->
+            </div>
+            <div class="skill-item">
+                <h2>Frameworks</h2>
+                <hr>
+                <h3>React.js</h3>
+                <h3>Express.js</h3>
+                <h3>BootStrap</h3>
+            </div>
+            <div class="skill-item">
+                <h2>Tools and Databases</h2>
+                <hr>
+                <h3>VS Code</h3>
+                <h3>Chrome devtools</h3>
+                <h3>Figma</h3>
+                <h3>Mongo DB</h3>
+                <h3>MYSQL</h3>
+                <h3>Postman</h3>
+            </div>
+        </div>
+        <!-- <img src="./assets/arrow.png" class="arrow" onclick="location.href='./#Projects'"> -->
+
+    </section>
+    <section id="Projects">
+        <div class="title">Projects.</div>
+        <div class="project-container">
+            <div class="project-item">
+                <h2> CollabSpace -Remote Collaboration Web App</h2>
+                <p><strong>Tech Stack:</strong>Node.js, Express.js, MongoDB, HTML/CSS/JS
+
+                <ul>
+                    <li>Currently building a full-stack platform for remote team collaboration.</li>
+
+                    <li> Features include real-time chat, file sharing, task management, and video calls.</li>
+
+                    <li> on implementing user authentication, group creation, and secure data handling with MongoDB</li>
+                    and Mongoose.
+
+                    <li>Integrating WebSockets for real-time communication.</li>
+                </ul>
+                </p>
+                <div class="btn-skill-item">
+                    <button class="btn-git"
+                        onclick="location.href='https://github.com/Prashant-53/Remote_Collaboration.git'">Github-Repo(InProgress)</button>
+                    <button class="btn-demo" onclick="location.href='#'">Live Demo(In Progress)</button>
+                </div>
+            </div>
+            <div class="project-item">
+                <h2>Personal Portfolio Website</h2>
+                <p><strong>Tech Stack:</strong>HTML, CSS, JavaScript</p>
+                <ul>
+                    <li> Designed and built a personal portfolio website to showcase my skills, projects, and education
+                        as a
+                        full stack developer</li> .
+
+                    <li>Created responsive layouts and clean UI for smooth navigation across different sections like
+                        About,
+                        Projects, Skills, and Contact.</li>
+
+                    <li>Demonstrated front-end development skills using semantic HTML, CSS styling, and basic
+                        interactivity
+                        with JavaScript.</li>
+
+                    <li>Continuously updating the site to reflect new projects and skills as I grow.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h2>Personal Portfolio Website</h2>
+                <p><strong>Tech Stack:</strong>HTML, CSS, JavaScript</p>
+                <ul>
+                    <li> Designed and built a personal portfolio website to showcase my skills, projects, and education
+                        as a
+                        full stack developer</li> .
+
+                    <li>Created responsive layouts and clean UI for smooth navigation across different sections like
+                        About,
+                        Projects, Skills, and Contact.</li>
+
+                    <li>Demonstrated front-end development skills using semantic HTML, CSS styling, and basic
+                        interactivity
+                        with JavaScript.</li>
+
+                    <li>Continuously updating the site to reflect new projects and skills as I grow.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h2>Personal Portfolio Website</h2>
+                <p><strong>Tech Stack:</strong>HTML, CSS, JavaScript</p>
+                <ul>
+                    <li> Designed and built a personal portfolio website to showcase my skills, projects, and education
+                        as a
+                        full stack developer</li> .
+
+                    <li>Created responsive layouts and clean UI for smooth navigation across different sections like
+                        About,
+                        Projects, Skills, and Contact.</li>
+
+                    <li>Demonstrated front-end development skills using semantic HTML, CSS styling, and basic
+                        interactivity
+                        with JavaScript.</li>
+
+                    <li>Continuously updating the site to reflect new projects and skills as I grow.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="title">Contact Me.</div>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-status" style="color: #161616	; display: none;">Message sent successfully!</p>
+            <p id="form-error" style="display:none; color: rgb(255, 0, 0); margin-top: 10px;">❌ Something went wrong.
+                Please
+                try again.</p>
+
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="Nav-Links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Prashant Sahu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+
+</html>
