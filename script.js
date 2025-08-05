@@ -20,7 +20,7 @@ form.addEventListener('submit', async (e) => {
         message: formData.get('message'),
     };
     try {
-        const response = await fetch('https://my-backend-wq6l.onrender.com/contact', {
+        const response = await fetch('https://my-backend-1-njmn.onrender.com/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
